@@ -1,0 +1,57 @@
+.header {
+  height: 65px;
+  background-color: gold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  z-index: 100;
+}
+
+.header__logo {
+  display: flex;
+  align-items: center;
+  margin: 0 25px;
+}
+.header__logoImage {
+  margin-right: 10px;
+}
+
+.header__name {
+  padding-left: 20px;
+}
+
+.header__search {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  border-radius: 24px;
+  margin: 0 10px;
+}
+.header__searchInput {
+  height: 12px;
+  padding: 10px;
+  border: none;
+  width: 100%;
+}
+.header__searchIcon {
+  padding: 5px;
+  height: 22px !important;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav__item {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.nav__basketCount {
+  margin-left: 10px;
+  margin-right: 10px;
+}
